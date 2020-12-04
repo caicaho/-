@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,5 +11,18 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath": "./pages/images/tabbar/home.net.png"
+    },
+    {
+      "pagePath":"pages/user/index",
+      "text":"个人中心",
+      "iconPath": "./pages/images/tabbar/user.net.png"
+    }    
+    ]
+  }
 }

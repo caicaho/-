@@ -3,6 +3,10 @@
   "packOptions": {
     "ignore": []
   },
+   "useExtendedLib": {
+      "kbone": true,
+      "weui": true
+    },
   "setting": {
     "urlCheck": true,
     "es6": true,
